@@ -1,26 +1,33 @@
-.topnav {
-    background-color: rgb(10, 29, 9);
-    overflow: hidden;
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
   }
   
-  /* links inside the nav */
-  .topnav a {
+  /* Navbar links */
+  .navbar a {
     float: left;
-    color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px;
+    color: white;
     text-decoration: none;
     font-size: 17px;
   }
   
-  /* when hovering */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
   }
   
-  /* currently selected */
-  .topnav a.active {
-    background-color: #5ac49d;
-    color: white;
+  /* Current/active navbar link */
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
   }
