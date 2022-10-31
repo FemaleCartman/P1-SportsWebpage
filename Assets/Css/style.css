@@ -9,7 +9,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url('../Images/bop.png'),linear-gradient(rgba(154, 156, 167, 0.7),rgba(4,9,30,0.7));
+    background-image: url('../Images/header2.png'),linear-gradient(rgba(154, 156, 167, 0.7),rgba(4,9,30,0.7));
     background-position: center;
     background-size: cover;
     position: relative;
