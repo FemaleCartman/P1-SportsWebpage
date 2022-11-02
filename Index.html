@@ -24,7 +24,6 @@
       <nav>
         <a href="index.html"><img src="Assets/Images/logo2.png" alt="Lotus logo" width="400"></a>
         <div class="nav-links" id="navLinks">
-        <i class="fa-regular fa-rectangle-xmark" onlick="hideMenu()"></i>
         <ul>
           <li><a href="">Home</a></li>
             <li><a href="">Massages</a></li>
@@ -33,7 +32,6 @@
                 <li><a href="">Contact Us</a></li>
         </ul>
         </div>
-        <i class="fa-solid fa-bars" onlick="toggleMobileMenu()"></i>
     </nav>
 
 
@@ -54,20 +52,6 @@
         <span class="contact-field-content">
         <a href="mailto:Anastacia@PhysioWellness.com">Anastacia@WhiteLotus.com</a>
     </footer>
-
-
- <!---JavaScript for menu--->
-
-<script>
-   var navLinks = document.getElementById("navLinks");
-   function toggleMobileMenu() {
-    navLinks.style.right = "0";
-   }
-    function hideMenu(){
-    navLinks.style.right = "-200px";
-    }
-</script>
-
 
 </body>
 </html>
