@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="Assets/Css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500;600&display=swap" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+    </style>
     <title>PhysioWellness</title>
 
 </head>
@@ -21,8 +22,9 @@
 
     <section class="header">
       <nav>
-        <a href="index.html"><img src="Assets/Images/logo.png" alt="Medical Massage session" width="400"></a>
-        <div class="nav-links">
+        <a href="index.html"><img src="Assets/Images/logo2.png" alt="Lotus logo" width="400"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa-regular fa-rectangle-xmark" onlick="hideMenu()"></i>
         <ul>
           <li><a href="">Home</a></li>
             <li><a href="">Massages</a></li>
@@ -31,21 +33,17 @@
                 <li><a href="">Contact Us</a></li>
         </ul>
         </div>
+        <i class="fa-solid fa-bars" onlick="toggleMobileMenu()"></i>
     </nav>
 
 
     <div class="text-box">
-    <h1>Welcome to PhysioWellness</h1>
-    <h2>We offers high-quality acupuncture and massage therapy treatments. <br>
-      We believe in helping our patients achieve their goal of better short term and long term health. <br>
-      We want you help you feel better, body and mind therefore we offer health care consultation during all treatments.</h2>
+    <h1>Welcome to White Lotus</h1>
+    <h2>Find your wellbeing today</h2>
       <a href="" class="book-link">Book your appointment today</a>
 
     </div>
     </section>
-
-
-
 
     <footer>
         <div>Contact us on via Email or phone today!</div>
@@ -54,7 +52,22 @@
     </div><div></div>
     <span class="contact-field-name">Email:</span>
         <span class="contact-field-content">
-        <a href="mailto:Anastacia@PhysioWellness.com">Anastacia@PhysioWellness.com</a>
+        <a href="mailto:Anastacia@PhysioWellness.com">Anastacia@WhiteLotus.com</a>
     </footer>
+
+
+ <!---JavaScript for menu--->
+
+<script>
+   var navLinks = document.getElementById("navLinks");
+   function toggleMobileMenu() {
+    navLinks.style.right = "0";
+   }
+    function hideMenu(){
+    navLinks.style.right = "-200px";
+    }
+</script>
+
+
 </body>
 </html>
