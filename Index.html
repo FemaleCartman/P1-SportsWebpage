@@ -1,57 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script src="https://kit.fontawesome.com/4086d1cc1f.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/4086d1cc1f.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="stylesheet" href="Assets/Css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
     </style>
+
+    <link rel="stylesheet" href="Assets/Css/style.css" />
+
     <title>PhysioWellness</title>
+  </head>
 
-</head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav>
+          <a href="index.html"
+            ><img src="Assets/Images/logo2.png" alt="Lotus logo"
+          /></a>
 
-<body>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <section class="header">
-      <nav>
-        <a href="index.html"><img src="Assets/Images/logo2.png" alt="Lotus logo" width="400"></a>
-        <div class="nav-links" id="navLinks">
-        <ul>
-          <li><a href="">Home</a></li>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="">Home</a></li>
             <li><a href="">Massages</a></li>
-              <li><a href="">Acupuncture</a></li>
-                <li><a href="">Our Team</a></li>
-                <li><a href="">Contact Us</a></li>
-        </ul>
+            <li><a href="">Acupuncture</a></li>
+            <li><a href="">Our Team</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+          <i class="mobile-icon fas fa-bars"></i>
+        </nav>
+
+        <div class="text-box">
+          <h1>Welcome to White Lotus</h1>
+          <h2>Find your wellbeing today</h2>
+          <a href="" class="book-link">Book your appointment today</a>
         </div>
-    </nav>
-
-
-    <div class="text-box">
-    <h1>Welcome to White Lotus</h1>
-    <h2>Find your wellbeing today</h2>
-      <a href="" class="book-link">Book your appointment today</a>
-
-    </div>
-    </section>
+      </div>
+    </header>
 
     <footer>
+      <div class="container">
         <div>Contact us on via Email or phone today!</div>
         <span class="contact-field-name">Phone number:</span>
         <a href="tel:070-322 41 20">070-322 41 20</a>
-    </div><div></div>
-    <span class="contact-field-name">Email:</span>
+
+        <span class="contact-field-name">Email:</span>
         <span class="contact-field-content">
-        <a href="mailto:Anastacia@PhysioWellness.com">Anastacia@WhiteLotus.com</a>
+          <a href="mailto:Anastacia@PhysioWellness.com"
+            >Anastacia@WhiteLotus.com</a
+          >
+        </span>
+      </div>
     </footer>
 
-</body>
+    <!-- Script -->
+    <script>
+      // Hamburger
+      let menu = document.querySelector('.mobile-icon');
+      let navbar = document.querySelector('.nav-links');
+
+      menu.addEventListener('click', () => {
+        menu.classList.toggle('fa-times');
+        navbar.classList.toggle('active');
+      });
+    </script>
+  </body>
 </html>
