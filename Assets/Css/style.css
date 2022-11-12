@@ -190,6 +190,89 @@ svg {
   font-weight: 500;
   margin-top: 1.5rem;
 }
+/* Main-Content */
+.section-container {
+  max-width: 99.2rem;
+  width: min(100% - 2.5rem);
+  margin: 0 auto;
+}
 
-.life
-quality: potato
+/* Acupunture-Section */
+
+.acu-msg {
+  padding-top: 100px;
+}
+
+.acu-msg-title {
+  font-size: 4.5rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.acu-msg-iframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.acu-msg-iframe > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.acu-msg-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  margin-top: 7.5rem;
+}
+
+.acu-msg-card {
+  flex: 1 1 34rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  padding: 20px;
+  transition: 300ms ease;
+}
+
+.acu-msg-card:hover {
+  transform: translateY(-5px);
+}
+
+.acu-msg-card > img {
+  width: 100%;
+  height: 29rem;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 5px solid #d5d5d5;
+}
+
+.acu-msg-card-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #ce9f61;
+}
+
+.acu-msg-card-text {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-weight: 500;
+}
