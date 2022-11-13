@@ -398,3 +398,59 @@ svg {
   height: 25rem;
   border-radius: 8px;
 }
+
+
+/*Different platforms*/
+
+@media (max-width: 992px) {
+  .contact-form-field {
+    flex-direction: column;
+  }
+
+  .contact-form-field > input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-form,
+  .contact-details {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 15px 25px;
+  }
+
+  .navbar-links {
+    column-gap: 1.5rem;
+  }
+
+  .navbar-links-item {
+    font-size: 1.6rem;
+  }
+
+  .header-title {
+    font-size: 3.2rem;
+  }
+
+  .header-title > br {
+    display: none;
+  }
+
+  .header-list-item > span {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-list {
+    column-gap: 1.0rem;
+  }
+}
