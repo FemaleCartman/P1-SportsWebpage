@@ -53,7 +53,7 @@ HTML and CSS code explanations and tutorials - [W3Schools](w3schools.com/)
 
 Course in CSS with tutorials - [Scrimba](scrimba.com/learn/cssgrid)
 
-### Media
+ **Media**
 
 Canva
 - [Images for different backgrounds](canva.com)
@@ -61,7 +61,7 @@ Canva
 FontAwesome
 - [Visual elements and icons](fontawesome.com/icons)
 
-### Textboxes
+**Textboxes**
 - Laser acupuncture text content was taken from [betterlife-terapia](betterlife-terapia.pl/specials/laser-acupuncture/)
 - Magnet acupuncture text content was taken from [mariatebar](https://mariatebar.com/specials/acupuncture-magnet-therapy/)
 - Deep tissue text content was taken from [ppmr](https://www.ppmr.net/deep-tissue-massage)
