@@ -454,3 +454,11 @@ svg {
     column-gap: 1.0rem;
   }
 }
+@media (max-width: 335px) {
+  .header-list {
+    column-gap: 1.0rem;
+  }
+  .header-title {
+    padding-top: 50px;
+  }
+}
