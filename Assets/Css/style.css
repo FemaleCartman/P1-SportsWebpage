@@ -55,8 +55,7 @@ svg {
 /* Header */
 
 .header {
-  background: linear-gradient(0deg, rgba(78, 61, 61, 0.75), rgba(0, 0, 0, 0.85)),
-    url('../images/hero-image.jpeg');
+  background: linear-gradient(0deg, rgba(78, 61, 61, 0.75), rgba(0, 0, 0, 0.85)), url('../Images/hero-image.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -287,7 +286,7 @@ svg {
 /* Contact-Section */
 
 .contact {
-  background-image: url('../images/contact-img.jpeg');
+  background-image: url('../Images/contact-img.jpeg'); 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
