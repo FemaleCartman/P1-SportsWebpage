@@ -52,6 +52,38 @@ svg {
   margin: 0 auto;
 }
 
+/* Social links */
+.socials {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.socials a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.socials a:hover {
+  background-color: rgba(78, 61, 61, 0.75);
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
 /* Header */
 
 .header {
@@ -398,8 +430,29 @@ svg {
   border-radius: 8px;
 }
 
+.followus a {
+  text-align: center;
+  padding: 6px;
+  width: 20%;
+  color: white;
+  font-size: 12px;
+}
 
 /*Different platforms*/
+
+
+@media (max-width: 1380px) {
+  .socials{
+    display: none;
+  }
+}
+
+@media (min-width: 1380px) {
+  .followus{
+    display: none;
+  }
+}
+
 
 @media (max-width: 992px) {
   .contact-form-field {
