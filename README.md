@@ -49,6 +49,19 @@ A simple, minimalistic and easily navigated website for clients to get an udners
 - HTML
 - CSS
 
+
+## Testing
+<img
+  src="Assets\Images\validator.png"
+  alt="Screenshot of the front page"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+  <img
+  src="CSS"
+  alt="Screenshot of the front page"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+
 ## Deployment
 
 I have deployed the project on github pages. The procedure follows:
