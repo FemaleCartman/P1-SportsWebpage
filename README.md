@@ -6,7 +6,7 @@
 
 This repository is my very first website code, designed for a wellness clinic. 
 The clinic provides acupuncture and massage services, using different modern techniques and methods. <br>
-A simple, minimalistic and easily navigated website.
+A simple, minimalistic and easily navigated website for clients to get an udnerstanding of what this clinic offers and to get in touch with Golden Lotus.
 
 ## Existing Features
 
@@ -15,11 +15,15 @@ A simple, minimalistic and easily navigated website.
 - Features 4 pages and makes it easier to navigate and scroll down to the desired page.
 - Works for all devices.
 
-
 **Video player boxes**
 - Videos explaining the procedures on both the Massage and Acupuncture page. 
 - Designed to allow the user to initiate and control the player. 
 
+**Social media links**
+- Clickable links to Facebook and Youtube.
+- Does not show on the home page, for aestetic reasons. 
+- Easy to access stuck to the left side on screens above 1380px, and in the contact information window on screens smaller than 1380px. 
+- Links open in either a new tab or window depending on uses settings.
 
 **Contact Form** 
 - Features different options of contacting the clinic. 
@@ -27,6 +31,18 @@ A simple, minimalistic and easily navigated website.
 - A responsive contact form. 
 - Location adress where clients can visit during the stated opening hours.
 - Mini Google Map for ease.
+
+## Improving Features
+
+
+**About Us page**
+- When it comes to a website that offert wellness services it is often interesting for the customer to know a little more about the people who work there. A section including portraits, career history and something personal would help grow the business. It would make the website come off as more professional all while also personal. 
+
+**Hamburger menu**
+- Initially there was a hamburger menu being crafted but the website later took a shift in a different direction. I went with a different design idea where the hamburger menu wasn't included. However it would make it easier to navigate, both on pc and mobile, wherever you are on the pages. It's a very useful and comfortable tool but has many ways of being implemented and coded, therefore it's an improvement to be made in the future once Im even more familiar with HTML and CSS.
+
+**Price list**
+- Would provide further clarity regarding exact treatment options and what those would cost.
 
 ## Tech Stack
 **Client:** 
