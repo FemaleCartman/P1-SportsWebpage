@@ -25,6 +25,11 @@ A simple, minimalistic and easily navigated website for clients to get an udners
 - Easy to access stuck to the left side on screens above 1380px, and in the contact information window on screens smaller than 1380px. 
 - Links open in either a new tab or window depending on uses settings.
 
+
+<img src="Assets\Images\Contactform.png"
+  alt="Screenshot of the front page"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
 **Contact Form** 
 - Features different options of contacting the clinic. 
 - Clickable phone number. 
@@ -57,7 +62,7 @@ A simple, minimalistic and easily navigated website for clients to get an udners
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
   <img
-  src="CSS"
+  src="Assets\Images\validatorcss.png"
   alt="Screenshot of the front page"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
