@@ -1,6 +1,6 @@
 # Golden Lotus - Acupuncture and Massage Center
 <img
-  src="Assets\Images\Frontpage.png"
+  src="Assets\Images\homepage.png"
   alt="Screenshot of the front page"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
