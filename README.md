@@ -23,7 +23,7 @@ A simple, minimalistic and easily navigated website for clients to get an unders
 - Clickable links that lead to either Facebook or Youtube.
 - Does not show on the home page, for aestetic reasons. 
 - Easy to access, stuck to the left side on screens above 1380px, and written in the contact information window on screens smaller than 1380px. 
-- Links open in either a new tab or window depending on uses settings.
+- Links open in either a new tab or window depending on user settings.
 
 
 <img src="Assets\Images\Contactform.png"
