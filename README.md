@@ -15,6 +15,13 @@ A simple, minimalistic and easily navigated website for clients to get an udners
 - Features 4 pages and makes it easier to navigate and scroll down to the desired page.
 - Works for all devices.
 
+
+<img
+  src="Assets\Images\Videoplayer.png"
+  alt="Screenshot of a videoplayer"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+
 **Video player boxes**
 - Videos explaining the procedures on both the Massage and Acupuncture page. 
 - Designed to allow the user to initiate and control the player. 
